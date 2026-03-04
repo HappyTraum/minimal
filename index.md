@@ -3,11 +3,11 @@ layout: default
 title: Richard Wolf - Psychotherapeut in Ausbildung unter Supervision
 ---
 
-<div style="display: flex; align-items: flex-start; gap: 30px; margin-bottom: 40px;">
-  <img src="profile.jpg" alt="Richard Wolf" style="width: 200px; height: 250px; object-fit: cover; border-radius: 8px;">
+<div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
+  <img src="profile.jpg" alt="Richard Wolf" style="width: 200px; height: 250px; object-fit: cover; border-radius: 8px; align-self: flex-start;">
   <div>
-    <h1 style="margin: 0 0 10px 0;">Richard Wolf <span style="font-size: 0.8em; color: #666;">Mag.</span></h1>
-    <p style="margin: 0; font-size: 1.2em; color: #555;">(humanistische Schule)</p>
+    <h1 style="margin: 0;">Mag. Richard Wolf</h1>
+    <p style="margin: 5px 0 0 0; font-size: 1.1em; color: #555;">(humanistische Schule)</p>
   </div>
 </div>
 
