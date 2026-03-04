@@ -1,10 +1,29 @@
 ---
-layout: homepage
+layout: default
+title: Richard Wolf - Psychotherapeut in Ausbildung unter Supervision Wien
 ---
 
 ## About Me
 
-I am a Ph.D. student at ...
+Ich bin Psychotherapeut in Ausbildung unter Supervision Wien
+
+<h1>Mag. Richard Wolf</h1>
+
+<p>Personzentrierter Psychotherapeut in Wien</p>
+
+<h2>Kontakt</h2>
+<ul>
+<li>Telefon: 0664 157 5023</li>
+<li>E-Mail: richard@richardwolf.co.at</li>
+<li>Adresse: Diepoldplatz 6<br>1170 Wien</li>
+</ul>
+
+<h2>Psychotherapie</h2>
+<p>[Paste your main text here from current site]</p>
+
+<footer style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #ccc;">
+<a href="/impressum/">Impressum</a> | <a href="/datenschutz/">Datenschutz</a>
+</footer>
 
 ## Research Interests
 
@@ -21,3 +40,5 @@ I am a Ph.D. student at ...
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}
+
+
