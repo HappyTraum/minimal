@@ -1,11 +1,7 @@
 ---
 layout: default
-title: Richard Wolf - Psychotherapeut in Ausbildung unter Supervision Wien
+title: Mag. Richard Wolf - Psychotherapeut in Ausbildung unter Supervision (humanistische Schule)
 ---
-
-## Mag. Richard Wolf
-
-Personzentrierter Psychotherapeut in Ausbildung unter Supervision (humanistische Schule)
 
 <h2>Kontakt</h2>
 <ul>
