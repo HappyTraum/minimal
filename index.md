@@ -22,9 +22,9 @@ Personzentrierter Psychotherapeut in Ausbildung unter Supervision (humanistische
 <a href="/impressum/">Impressum</a> | <a href="/datenschutz/">Datenschutz</a>
 </footer>
 
-<!{% include_relative _includes/publications.md %}
+<!--{% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}>
+{% include_relative _includes/services.md %}-->
 
 
 
