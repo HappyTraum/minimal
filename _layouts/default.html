@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'de' }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo title=false %}
+    <title>{{ page.title | default: site.title }}</title>
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+
+    <style>
+      html, body {
+        height: 100%;
+      }
+
+      .wrapper {
+        width: 1100px;
+        min-height: 100vh;
+      }
+
+      header {
+        width: 320px;
+      }
+
+      section {
+        width: 700px;
+        min-height: 420px;
+      }
+
+      header img {
+        width: 200px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 8px;
+        display: block;
+        margin: 0 auto 16px auto;
+      }
+
+      .contact-block {
+        margin-top: 18px;
+      }
+
+      .contact-block a[href^="mailto:"] {
+        word-break: break-word;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        {% if site.logo %}
+          <img src="{{ site.logo | relative_url }}" alt="Porträt von {{ site.title }}">
+        {% endif %}
+
+        <h1><a href="{{ '/' | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+        <p class="contact-block">
+          Tel: <a href="tel:+436641575023">0664 157 5023</a><br>
+          E-Mail: <a href="mailto:richard@richardwolf.co.at">richard@richardwolf.co.at</a><br>
+          Zeillergasse 19/6<br>
+          1170 Wien
+        </p>
+      </header>
+
+      <section>
+        {{ content }}
+      </section>
+    </div>
+
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  </body>
+</html>
+
