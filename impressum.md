@@ -30,3 +30,5 @@ Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für 
 
 Die Inhalte dieser Website unterliegen dem Urheberrecht. Jede Verwendung, Vervielfältigung oder Verbreitung bedarf der vorherigen Zustimmung, sofern gesetzlich nicht anders vorgesehen.
 
+<p><a href="/">Zurück zur Startseite</a></p>
+

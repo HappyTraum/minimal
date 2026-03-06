@@ -10,7 +10,7 @@ permalink: /
 
 <h2><a href="/arbeitsschwerpunkte.html">Arbeitsschwerpunkte</a></h2>
 
-<p>Ich biete personzentrierte Psychotherapie in Wien an.</p>
+<!--<p>Ich biete personzentrierte Psychotherapie an.</p>-->
 <!--<p>I offer therapy in English.</p>-->
 
 <h2>Kontakt</h2>
