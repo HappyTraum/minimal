@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Mag. Richard Wolf - Psychotherapie
-permalink: /
 ---
 
 <h2><a href="/psychotherapie.html">Psychotherapie</a></h2>
