@@ -15,39 +15,70 @@
     {% include head-custom.html %}
 
     <style>
+      * {
+        box-sizing: border-box;
+      }
+
       html, body {
         height: 100%;
       }
 
       .wrapper {
-        width: 1100px;
+        max-width: 1100px;
+        width: 95%;
         min-height: 100vh;
+        margin: 0 auto;
       }
 
       header {
-        width: 320px;
+        width: 28%;
+        max-height: 100vh;
+        overflow-y: auto;
+        padding-right: 10px;
       }
 
       section {
-        width: 700px;
+        width: 68%;
         min-height: 420px;
+        overflow-wrap: break-word;
       }
 
       header img {
-        width: 200px;
-        height: 250px;
+        width: 170px;
+        height: 210px;
         object-fit: cover;
         border-radius: 8px;
         display: block;
-        margin: 0 auto 16px auto;
+        margin: 0 auto 12px auto;
       }
 
       .contact-block {
-        margin-top: 18px;
+        margin-top: 12px;
+        line-height: 1.5;
       }
 
       .contact-block a[href^="mailto:"] {
         word-break: break-word;
+      }
+
+      .legal-links {
+        margin-top: 14px;
+        font-size: 0.95em;
+        line-height: 1.5;
+      }
+
+      @media screen and (max-width: 960px) {
+        header,
+        section {
+          width: 100%;
+          float: none;
+          max-height: none;
+          overflow: visible;
+        }
+
+        section {
+          margin-top: 30px;
+        }
       }
     </style>
   </head>
@@ -68,6 +99,11 @@
           E-Mail: <a href="mailto:richard@richardwolf.co.at">richard@richardwolf.co.at</a><br>
           Zeillergasse 19/6<br>
           1170 Wien
+        </p>
+
+        <p class="legal-links">
+          <a href="/impressum/">Impressum</a><br>
+          <a href="/datenschutz/">Datenschutz</a>
         </p>
       </header>
 
