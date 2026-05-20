@@ -13,7 +13,7 @@ Zeillergasse 19/6
 Österreich
 
 Telefon: 0664 157 5023  
-E-Mail: [richard@richardwolf.co.at](mailto:richard@richardwolf.co.at)
+E-Mail: [richardwolf001@a1.net](mailto:richardwolf001@a1.net)
 
 **Unternehmensgegenstand**  
 Psychotherapeutisches Angebot / psychotherapeutische Tätigkeit

@@ -15,7 +15,7 @@ Zeillergasse 19/6
 1170 Wien  
 Österreich  
 
-E-Mail: [richard@richardwolf.co.at](mailto:richard@richardwolf.co.at)
+E-Mail: [richardwolf001@a1.net](mailto:richardwolf001@a1.net)
 
 ## Websitebesuch
 
